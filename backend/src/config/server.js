@@ -1,6 +1,8 @@
 const port = 3003
 
+// Faz o parser da requisção
 const bodyParser = require('body-parser')
+// Servidor web que roda em cima do node
 const express = require('express')
 const server = express()
 const AllowCors = require('./cors')
